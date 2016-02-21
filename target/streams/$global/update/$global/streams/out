@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for breakfastsbt#breakfastsbt_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f795e93[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c194dc6[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
@@ -17,21 +17,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe.akka/akka-stream_2.11/2.4.2-RC2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-stream_2.11;2.4.2-RC2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-stream_2.11;2.4.2-RC2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.pom (2.4.2-RC2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.11;2.4.2-RC2!akka-stream_2.11.pom(pom.original) (563ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe.akka/akka-stream_2.11/2.4.2-RC2/jars/akka-stream_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.jar[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-stream_2.11;2.4.2-RC2[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
@@ -41,61 +28,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->com.typesafe.akka#akka-actor_2.11;2.4.2-RC2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.4.2-RC2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.2-RC2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.4.2-RC2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.2-RC2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4.2-RC2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4.2-RC2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-actor_2.11;2.4.2-RC2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.pom (2.4.2-RC2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.2-RC2!akka-actor_2.11.pom(pom.original) (556ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4.2-RC2/jars/akka-actor_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.jar[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.4.2-RC2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.2-RC2[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.4.2-RC2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->com.typesafe.akka#akka-actor_2.11;2.4.2-RC2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2-RC2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2-RC2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2-RC2->com.typesafe#config;1.3.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe#config;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe/config/1.3.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#config;1.3.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe#config;1.3.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom (1.3.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.pom(pom.original) (596ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe/config/1.3.0/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.3.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.3.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.3.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2-RC2->com.typesafe#config;1.3.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2-RC2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-java8-compat_2.11;0.7.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang.modules#scala-java8-compat_2.11;0.7.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom (0.7.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.pom(pom.original) (601ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2-RC2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -112,42 +60,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->com.typesafe#ssl-config-akka_2.11;0.1.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#ssl-config-akka_2.11;0.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#ssl-config-akka_2.11;0.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe#ssl-config-akka_2.11;0.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe#ssl-config-akka_2.11;0.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe/ssl-config-akka_2.11/0.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#ssl-config-akka_2.11;0.1.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe#ssl-config-akka_2.11;0.1.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.pom (0.1.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#ssl-config-akka_2.11;0.1.1!ssl-config-akka_2.11.pom(pom.original) (671ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe/ssl-config-akka_2.11/0.1.1/jars/ssl-config-akka_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.jar[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe#ssl-config-akka_2.11;0.1.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#ssl-config-akka_2.11;0.1.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#ssl-config-akka_2.11;0.1.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->com.typesafe#ssl-config-akka_2.11;0.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.1->com.typesafe#ssl-config-core_2.11;0.1.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#ssl-config-core_2.11;0.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#ssl-config-core_2.11;0.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe#ssl-config-core_2.11;0.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe#ssl-config-core_2.11;0.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe/ssl-config-core_2.11/0.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#ssl-config-core_2.11;0.1.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe#ssl-config-core_2.11;0.1.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.pom (0.1.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.11;0.1.1!ssl-config-core_2.11.pom(pom.original) (461ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe/ssl-config-core_2.11/0.1.1/jars/ssl-config-core_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.jar[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe#ssl-config-core_2.11;0.1.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#ssl-config-core_2.11;0.1.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#ssl-config-core_2.11;0.1.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.1->com.typesafe#ssl-config-core_2.11;0.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -184,21 +106,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->org.reactivestreams#reactive-streams;1.0.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.reactivestreams#reactive-streams;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.reactivestreams#reactive-streams;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.reactivestreams#reactive-streams;1.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.reactivestreams#reactive-streams;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/org.reactivestreams/reactive-streams/1.0.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.reactivestreams#reactive-streams;1.0.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.reactivestreams#reactive-streams;1.0.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom (1.0.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.pom(pom.original) (1049ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	found org.reactivestreams#reactive-streams;1.0.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;1.0.0[0m
+[0m[[0mdebug[0m] [0m	found org.reactivestreams#reactive-streams;1.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->org.reactivestreams#reactive-streams;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->org.reactivestreams#reactive-streams;1.0.0 [compile->compile][0m
@@ -358,6 +267,53 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.2 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-testkit_2.11;2.4.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.11;2.4.2 {test=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-testkit_2.11;2.4.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.11;2.4.2 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe.akka/akka-testkit_2.11/2.4.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-testkit_2.11;2.4.2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-testkit_2.11;2.4.2[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.pom (2.4.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.11;2.4.2!akka-testkit_2.11.pom(pom.original) (621ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/danimad/.ivy2/local/com.typesafe.akka/akka-testkit_2.11/2.4.2/jars/akka-testkit_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-testkit_2.11;2.4.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.4.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.2[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.4.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.2 [test->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for breakfastsbt#breakfastsbt_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
@@ -587,6 +543,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2-RC2->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.2-RC2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies breakfastsbt#breakfastsbt_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.2 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for breakfastsbt#breakfastsbt_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for breakfastsbt#breakfastsbt_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
@@ -674,54 +654,26 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.2-RC2/akka-stream_2.11-2.4.2-RC2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.11;2.4.2-RC2!akka-stream_2.11.jar (10197ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.2-RC2/akka-actor_2.11-2.4.2-RC2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.2-RC2!akka-actor_2.11.jar (15901ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.1.1/ssl-config-akka_2.11-0.1.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#ssl-config-akka_2.11;0.1.1!ssl-config-akka_2.11.jar (789ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar (1092ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.jar(bundle) (1783ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(bundle) (2101ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.1.1/ssl-config-core_2.11-0.1.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.11;0.1.1!ssl-config-core_2.11.jar (1585ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.2-RC2!akka-stream_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.2-RC2!akka-actor_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#ssl-config-akka_2.11;0.1.1!ssl-config-akka_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#ssl-config-core_2.11;0.1.1!ssl-config-core_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.2/akka-testkit_2.11-2.4.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.11;2.4.2!akka-testkit_2.11.jar (524ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.2!akka-actor_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 45670ms :: artifacts dl 35936ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 25615ms :: artifacts dl 650ms[0m
 [0m[[0mdebug[0m] [0m	report for breakfastsbt#breakfastsbt_2.11;1.0 compile produced in /Users/danimad/Dropbox/Programming/scala/meetup/scalaBreakfast/target/resolution-cache/reports/breakfastsbt-breakfastsbt_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for breakfastsbt#breakfastsbt_2.11;1.0 runtime produced in /Users/danimad/Dropbox/Programming/scala/meetup/scalaBreakfast/target/resolution-cache/reports/breakfastsbt-breakfastsbt_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for breakfastsbt#breakfastsbt_2.11;1.0 test produced in /Users/danimad/Dropbox/Programming/scala/meetup/scalaBreakfast/target/resolution-cache/reports/breakfastsbt-breakfastsbt_2.11-test.xml[0m
@@ -735,5 +687,5 @@
 [0m[[0mdebug[0m] [0m	report for breakfastsbt#breakfastsbt_2.11;1.0 docs produced in /Users/danimad/Dropbox/Programming/scala/meetup/scalaBreakfast/target/resolution-cache/reports/breakfastsbt-breakfastsbt_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for breakfastsbt#breakfastsbt_2.11;1.0 pom produced in /Users/danimad/Dropbox/Programming/scala/meetup/scalaBreakfast/target/resolution-cache/reports/breakfastsbt-breakfastsbt_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for breakfastsbt#breakfastsbt_2.11;1.0 scala-tool produced in /Users/danimad/Dropbox/Programming/scala/meetup/scalaBreakfast/target/resolution-cache/reports/breakfastsbt-breakfastsbt_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (45670ms resolve - 35936ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (25615ms resolve - 650ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -1,6 +1,5 @@
 // import java.math.BigInteger
 // import java.util.Date
-
 import java.io.File
 
 import akka.actor.ActorSystem
@@ -33,62 +32,54 @@ class Prime {
 }
 object Prime extends Prime {
 
-  def main(args: Array[String]) {
-
     implicit val system = ActorSystem("akka-prime")
 
     implicit val mat = ActorMaterializer()
 
+    val fileName = "test.txt"
+
+    // val primeTesterAsync = Flow[Int].viaAsync(primeTester);
+
+    // Int.Value from: http://eng.localytics.com/akka-streams-akka-without-the-actors/
+    // TODO: make file reading on graph and prime another and connect them
+    // val fileSource = FileIO.fromFile(new File(fileName)
+    //   ).via(Framing.delimiter(ByteString("\n"),
+    //     maximumFrameLength = Int.MaxValue)
+    //   ).map(_.utf8String.toInt)
+
+    // test list
+    // val numbers = List(1, 2, 3, 4, 5, 10, 11, 19, 25)
+
+    // from: http://stackoverflow.com/questions/6557169/how-to-declare-empty-list-and-then-add-string-in-scala
+  val numbers = (for (line <- scala.io.Source.fromFile(fileName).getLines)
+    yield line.toInt).toList
+
+  def genGraph(inputList: List[Int] , workerCount: Int) = RunnableGraph.fromGraph(
+    GraphDSL.create() { implicit b =>
+
+    import GraphDSL.Implicits._
+
+    val in = Source(inputList)
+    val out = Sink.foreach(println)
+
+    // make async
+    val worker = Flow[Int].map(isPrime)
+
+    // make generic type
+    val balance = b.add(Balance[Int](workerCount))
+    val merge   = b.add(Merge[PrimalityResult](workerCount))
+
+
+    in ~>  balance.in
+    for (i <- 0 until workerCount)
+      balance.out(i) ~> worker ~> merge.in(i)
+                                merge.out ~> out
+    ClosedShape
+  })
+
+  def main(args: Array[String]) {
+
     try {
-
-      val fileName = "test.txt"
-
-      val fileSource = FileIO.fromFile(new File(fileName)
-        ).via(Framing.delimiter(ByteString("\n"),
-          maximumFrameLength = 256)
-        ).map(_.utf8String)
-
-      // TODO: make file reading on graph and prime another and connect them
-      // without a list
-      //
-      // val fileSource: Source[ByteString,
-      //                 Future[IOResult]] = FileIO.fromFile(new File(fileName))
-
-      // val fileRawLines = fileSource.via(
-      //   Framing.delimiter(ByteString("\n"),
-      //   maximumFrameLength = 256))
-
-      // val fileLines: Source[String, Future[IOResult]] = fileRawLines.map(_.utf8String)
-
-      fileSource.runForeach(println)
-
-
-      val numbers = List(1, 2, 3, 4, 5, 10, 11, 19, 25)
-
-      // val primeTesterAsync = Flow[Int].viaAsync(primeTester);
-
-      def genGraph(inputList: List[Int], workerCount: Int) = RunnableGraph.fromGraph(
-        GraphDSL.create() { implicit builder =>
-
-        import GraphDSL.Implicits._
-
-        val in = Source(inputList)
-        val out = Sink.foreach(println)
-        //
-        // make async
-        val worker = Flow[Int].map(isPrime)
-
-        // make generic type
-        val balance = builder.add(Balance[Int](workerCount))
-        val merge = builder.add(Merge[PrimalityResult](workerCount))
-
-
-        in ~>  balance.in
-        for (i <- 0 until workerCount)
-          balance.out(i) ~> worker ~> merge.in(i)
-                                    merge.out ~> out
-        ClosedShape
-      })
 
       genGraph(inputList = numbers, workerCount = 2).run()
 

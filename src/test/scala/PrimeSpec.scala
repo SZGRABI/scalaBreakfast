@@ -1,9 +1,19 @@
-import org.scalatest._
+// import org.scalatest._
+import akka.testkit.{TestKit, TestActorRef}
+import akka.stream.testkit._
 
-class MainSpec extends WordSpec with Matchers {
-  "Main" should {
-    "return list of tuples (number, bool) for all candidate numbers" in {
-      val primes = List(1, 2, 3, 4)
-      assert(Problems.last(list) == magicnum)
-    }
-  }
+// http://doc.akka.io/docs/akka/2.4.2/scala/stream/stream-testkit.html
+// http://blog.matthieuguillermin.fr/2013/06/akka-testing-your-actors/
+val primes = List(3)
+val result = Prime.PrimalityResult(3, true)
+val graph = Source(3).runWith(genGraph(primes, 2)
+assert(graph == result)
+// class PrimeTest extends TestKit(ActorSystem("testSystem"))
+//   with WordSpec
+//   with MustMatchers {
+
+//   "Prime actor " must {
+
+//     val 
+//   }
+// }
