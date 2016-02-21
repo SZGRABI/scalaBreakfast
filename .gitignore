@@ -1,6 +1,8 @@
 # folders
 .idea/
 target/
+project/project
+project/target
 
 # files
 .DS_Store
